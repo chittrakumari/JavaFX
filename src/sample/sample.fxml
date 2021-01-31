@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="39.0" layoutY="29.0" text="GLA LOGIN" textFill="#10ca48">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="29.0" layoutY="332.0" mnemonicParsing="false" text="LOGIN" />
+      <Button layoutX="156.0" layoutY="332.0" mnemonicParsing="false" text="FORGOT PASSWORD" />
+      <Label layoutX="16.0" layoutY="144.0" text="ENTER EMAIL ID" textFill="#4d352e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="197.0" layoutY="149.0" />
+      <PasswordField layoutX="176.0" layoutY="213.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="370.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="-136.0" layoutY="263.0" prefHeight="0.0" prefWidth="10.0" text="PASSWORD" textFill="#df1d1d">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="-186.0" layoutY="149.0" text="PASSWORD">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/download.jfif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
